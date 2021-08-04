@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #1acc8d;
+  color: #be202f;
   text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1acc8d;
+  border: 6px solid #be202f;
   border-top-color: #d2f9eb;
   border-radius: 50%;
   width: 60px;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1acc8d;
+  background: #be202f;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -123,7 +123,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba( 61, 61, 61, 0.50 );
+    box-shadow: 0 8px 32px 0 rgb(190 32 47 / 37%);
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 #header.header-transparent {
@@ -131,7 +135,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba( 61, 61, 61, 0.50 );
+    box-shadow: 0 8px 32px 0 rgb(190 32 47 / 37%);
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
   height: 60px;
 }
 
@@ -202,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #1acc8d;
+  background-color: #be202f;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -242,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #01036f;
+  color: #be202f;
 }
 
 .navbar .dropdown ul a i {
@@ -250,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #1acc8d;
+  color: #be202f;
 }
 
 .navbar .dropdown:hover > ul {
@@ -341,11 +349,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0205a1;
+  color: #be202f;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3f43fd;
+  color: #be202f;
 }
 
 .navbar-mobile .getstarted {
@@ -377,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #1acc8d;
+  color: #be202f;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -389,14 +397,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: url("../img/background-1.png");
   position: relative;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: #be1e2d9e;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -414,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #1acc8d;
+  border-bottom: 4px solid #be202f;
 }
 
 #hero h2 {
@@ -433,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #1acc8d;
+  background: #be202f;
 }
 
 #hero .btn-get-started:hover {
@@ -593,7 +601,8 @@ section {
 }
 
 .section-bg {
-  background-color: #f5f5ff;
+  /*background-color: #f5f5ff;*/
+  background: url(/assets/img/bl-section-bk.png);
 }
 
 .section-title {
@@ -617,7 +626,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #1acc8d;
+  background: #be202f;
   margin: 4px 10px;
 }
 
@@ -628,7 +637,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: #be202f;
 }
 
 /*--------------------------------------------------------------
@@ -701,7 +710,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: #be202f;
   margin-bottom: 15px;
 }
 
@@ -722,13 +731,13 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: #1acc8d;
+  color: #be202f;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #1acc8d;
-  border-color: #1acc8d;
+  background: #be202f;
+  border-color: #be202f;
 }
 
 .about .icon-box:hover .icon i {
@@ -748,7 +757,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #1acc8d;
+  color: #be202f;
 }
 
 .about .icon-box .description {
@@ -758,7 +767,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/JULY\ 19_SM\ POST\ copy.jpg") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
@@ -766,7 +775,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
+  background: radial-gradient(#be202f 50%, rgba(190, 32, 47, 0.50) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -807,14 +816,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(63, 67, 253, 0.7);
+  border: 5px solid rgba(190, 32, 47, 0.50);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #3f43fd;
+  border-left: 15px solid #be202f;
   transform: scale(20);
 }
 
@@ -865,7 +874,10 @@ section {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #f5f5ff;
+  border-radius: 20px;
+background: #ffffff;
+box-shadow:  10px 10px 20px #f0f0f0,
+             -10px -10px 20px #ffffff;
   transition: ease-in-out 0.3s;
 }
 
@@ -884,7 +896,7 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #010483;
+  color: #be202f;
   transition: ease-in-out 0.3s;
 }
 
@@ -893,14 +905,17 @@ section {
 }
 
 .features .icon-box:hover {
-  background: #ebebff;
+  border-radius: 15px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  14px 14px 35px #e3e3e3,
+             -14px -14px 35px #ffffff;
 }
 
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #f5f5ff;
+  background: #414041;
   padding: 70px 0 60px;
 }
 
@@ -918,7 +933,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #1acc8d;
+  background: #be202f;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -934,7 +949,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #010483;
+  color: #be202f;
 }
 
 .counts .count-box p {
@@ -954,7 +969,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #010483;
+  color: #be202f;
 }
 
 .details .content ul {
@@ -969,7 +984,7 @@ section {
 .details .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1acc8d;
+  color: #be202f;
 }
 
 .details .content p:last-child {
@@ -1080,7 +1095,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1acc8d;
+  background-color: #be202f;
 }
 
 @media (min-width: 1024px) {
@@ -1169,7 +1184,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #1acc8d;
+  color: #be202f;
 }
 
 .team .member .social i {
@@ -1202,7 +1217,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #1acc8d;
+  color: #be202f;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1234,7 +1249,7 @@ section {
 }
 
 .pricing ul i {
-  color: #1acc8d;
+  color: #be202f;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1252,7 +1267,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #1acc8d;
+  background: #be202f;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 50px;
@@ -1271,7 +1286,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #1acc8d;
+  background: #be202f;
 }
 
 .pricing .advanced {
@@ -1283,7 +1298,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #1acc8d;
+  background: #be202f;
   color: #fff;
 }
 
@@ -1351,7 +1366,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1acc8d;
+  color: #be202f;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1395,7 +1410,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #010483;
+  color: #be202f;
 }
 
 .contact .info p {
@@ -1410,7 +1425,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #1acc8d;
+  background: #be202f;
   color: #fff;
 }
 
@@ -1480,7 +1495,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #1acc8d;
+  background: #be202f;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1514,7 +1529,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: url(/assets/img/bl-section-bk.png);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1526,9 +1541,12 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: rgba( 190, 32, 47, 0.50 );
+    box-shadow: 0 8px 32px 0 rgb(49 49 49 / 26%);
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
   color: #fff;
-  border-top: 4px solid #1acc8d;
+  border-top: 4px solid #be202f;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1563,7 +1581,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1acc8d;
+  background: #be202f;
   color: #fff;
   text-decoration: none;
 }
@@ -1637,7 +1655,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1acc8d;
+  background: #be202f;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;

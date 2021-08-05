@@ -603,7 +603,7 @@ section {
 
 .section-bg {
   /*background-color: #f5f5ff;*/
-  background: url(/assets/img/bl-section-bk.png);
+  background: url(../img/bl-section-bk.png);
 }
 
 .section-title {
@@ -1533,7 +1533,7 @@ box-shadow:  14px 14px 35px #e3e3e3,
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url(/assets/img/bl-section-bk.png);
+  background: url(../img/bl-section-bk.png);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;

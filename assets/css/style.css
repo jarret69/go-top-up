@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   background: rgba( 61, 61, 61, 0.50 );
-    box-shadow: 0 8px 32px 0 rgb(190 32 47 / 37%);
+    box-shadow: 0 8px 32px 0 rgb(61 61 61 / 37%);
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   background: rgba( 61, 61, 61, 0.50 );
-    box-shadow: 0 8px 32px 0 rgb(190 32 47 / 37%);
+    box-shadow: 0 8px 32px 0 rgb(152 150 150 / 0%);
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -398,13 +398,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   background: url("../img/background-1.png");
+  background-repeat: no-repeat;
   position: relative;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background: #be1e2d9e;
+  background: #3c3b3ddb;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -725,7 +726,7 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #7ceec6;
+  border: 2px solid #42414365;
   border-radius: 50px;
   transition: 0.5s;
 }
@@ -960,8 +961,11 @@ box-shadow:  14px 14px 35px #e3e3e3,
 }
 
 /*--------------------------------------------------------------
-# Details
 --------------------------------------------------------------*/
+#details {
+    background: #f5f5f5 !important;
+}
+
 .details .content + .content {
   margin-top: 100px;
 }

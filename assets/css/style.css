@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/background-1.png");
+  background: url("../img/bl-section-bk-banner.png");
   background-repeat: no-repeat;
   position: relative;
   padding: 120px 0 0 0;
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: #3c3b3ddb;
+  background: #3c3b3d63;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1387,6 +1387,13 @@ box-shadow:  14px 14px 35px #e3e3e3,
   }
 }
 
+/*------------------------Image opacity---------------------*/
+.image-opacity{
+  opacity: 70% !important;
+}
+
+/*-------------------------End---------------------------*/
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1397,11 +1404,11 @@ box-shadow:  14px 14px 35px #e3e3e3,
 
 .contact .info i {
   font-size: 20px;
-  color: #3f43fd;
+  color: #be202f;
   float: left;
   width: 44px;
   height: 44px;
-  background: #f0f0ff;
+  background: #98979a;
   display: flex;
   justify-content: center;
   align-items: center;

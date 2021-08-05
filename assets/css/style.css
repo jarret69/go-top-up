@@ -9,6 +9,13 @@
   margin: auto !important;
 }
 
+.load-img{
+  margin: auto;
+  position: fixed;
+  top: calc(50% - 9px);
+  left: calc(50% - 19px);
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -53,8 +60,8 @@ h1, h2, h3, h4, h5, h6 {
   border: 6px solid #be202f;
   border-top-color: #d2f9eb;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }

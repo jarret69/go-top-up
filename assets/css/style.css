@@ -12,7 +12,7 @@
 .load-img{
   margin: auto;
   position: fixed;
-  top: calc(50% - 9px);
+  top: calc(50% - 1px);
   left: calc(50% - 19px);
 }
 
@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #34e5a6;
+  color: #383738;
   text-decoration: none;
 }
 
@@ -55,13 +55,13 @@ h1, h2, h3, h4, h5, h6 {
 #preloader:before {
   content: "";
   position: fixed;
-  top: calc(50% - 30px);
+  top: calc(50% - 38px);
   left: calc(50% - 30px);
   border: 6px solid #be202f;
   border-top-color: #d2f9eb;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 171px;
+  height: 171px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
@@ -1452,7 +1452,7 @@ box-shadow:  14px 14px 35px #e3e3e3,
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #0205a1;
+  color: #383738;
 }
 
 .contact .info .email, .contact .info .phone {
